@@ -7,3 +7,7 @@ I learned that an ArrayList can grow or shrink, while a regular array has a fixe
 
 ## Phase 2
 In this phase, I used the Comparable interface and compareTo() method to sort neural mods by processing speed from lowest to highest. I learned that natural order is the default way objects are sorted, and Collections.sort() uses this order.
+
+## Phase 3
+
+In this phase, I used Comparator to sort mods by compatibility without changing their natural order. I used Integer.compare() with the values reversed to sort from highest to lowest.
