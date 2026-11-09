@@ -15,3 +15,7 @@ In this phase, I used Comparator to sort mods by compatibility without changing 
 ## Phase 4
 
 In this phase, I updated compareTo() to sort by speed first, compatibility second, and name last. If two mods have the same speed, the program compares compatibility. If both are equal, it sorts their names alphabetically.
+
+## Phase 5
+
+In this phase, I tested the program with mods having the same speed and compatibility. The sorting worked correctly, including alphabetical order. I did not find any bugs during testing. The program uses all three sorting rules as expected.

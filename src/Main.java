@@ -12,9 +12,14 @@ public class Main {
         mods.add(new NeuralMod("Soma-Link", 3.1, 98));
         mods.add(new NeuralMod("Pulse-7", 5.8, 60));
 
+
+        mods.add(new NeuralMod("Alpha-Mod", 4.2, 85));
+        mods.add(new NeuralMod("Beta-Mod", 4.2, 85));
+
+       
         Collections.sort(mods);
 
-        System.out.println("Optimal Neural Mod Sorting:");
+        System.out.println("Final Sorted Neural Mods:");
 
         for (NeuralMod mod : mods) {
             System.out.println(mod);
